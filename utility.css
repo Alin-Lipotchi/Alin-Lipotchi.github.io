@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Utility Classes */
+
+.white {
+    color: #fff;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.crs-pointer {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.mt1 {
+    margin-top: 1rem;
+}
+
+.mauto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.body-1 {
+    font-weight: 400;
+}
+
+.body-2 {
+    font-weight: 600;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+.twelve-px-text {
+    font-size: 12px;
+}
+
+.medium-text {
+    font-size: 20px;
+}
+
+.big-text {
+    font-size: 30px;
+}
+
+.btn-dark {
+    background: #3b3d42;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: .75rem;
+    opacity: .9;
+}
+
+.btn-light {
+    color: #3b3d42;
+    background: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: .75rem;
+    opacity: .9;
+}
+
+.btn-border-light {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: .5rem 1rem;
+    border: 3px #fff solid;
+    border-radius: 40px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+
+.btn-border-light-bg {
+    text-decoration: none;
+    color: #171a20;
+    font-size: 12px;
+    padding: .5rem 1rem;
+    border: 3px #fff solid;
+    background: #fff;
+    border-radius: 40px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+
+.btn-border-dark {
+    text-decoration: none;
+    color: #171a20;
+    font-size: 12px;
+    padding: .5rem 1rem;
+    border: 3px #171a20 solid;
+    border-radius: 40px;
+    width: 300px;
+    display: block;
+    text-align: center;
+}
+
+.btn-blue, .btn-blue-big {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: .5rem 1rem;
+    border-radius: 40px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    background: #3E6AE1;
+    border: 1px solid #3E6AE1;
+}
+
+.order-button-active {
+    background: #fff;
+    color: #171a20;
+    border: 1px solid #171a20;
+}
+
+.order-button-active:hover {
+    background: #ccc !important;
+}
+
+.btn-blue-big {
+    padding: 1rem;
+}
+
+.btn-blue:hover, .btn-blue-big:hover {
+    background: #2E5AD1;
+}
+
+.btn-border-light:hover {
+    background: #fff;
+    color: #3b3d42;
+}
+
+.btn-border-dark:hover {
+    border: #3b3d42 solid 3px;
+    background: #171a20;
+    color: #fff;
+}
+
+.btn-dark:hover, .btn-light:hover, .btn-border-light-bg:hover {
+    opacity: 0.8;
+}
+
+.hidden, .hidden-below-768 {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+@media(min-width: 576px) {
+    .text-centered-above-576 {
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) {
+    .hidden-above-768 {
+        display: none;
+    }
+    .hidden-below-768 {
+        display: block;
+    }
+
+    .text-centered-above-768 {
+        text-align: center;
+    }
+}
+
+@media(min-width: 992px) {
+    .text-left-above-992 {
+        text-align: left;
+    }
+}
